@@ -1,0 +1,187 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+
+/* styles.css */
+/* Estilos para la descripción de la casa */
+main {
+    text-align: center;
+}
+
+/* Estilos para la casa */
+.casa {
+    width: 400px;
+    height: 800px;
+    background-color: #e6e6e6;
+    position: relative;
+    margin: 0 auto;
+}
+
+/* Estilos para las habitaciones y áreas */
+.cuarto1,
+.cuarto2,
+.sala,
+.comedor,
+.cocina,
+.servicio,
+.garaje,
+.jardin
+ {
+    position: absolute;
+    border: 1px solid #000;
+    background-color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.jardin {
+    width: 200px;
+    height: 120px;
+    top: 20px;
+    left: 20px;
+}
+
+.cuarto1{
+    width: 120px;
+    height: 120px;
+    top: 20px;
+    left: 245px;
+}
+
+
+.servicio{
+    width: 120px;
+    height: 120px;
+    top: 165px;
+    left: 245px;
+}
+
+.cocina{
+    width: 200px;
+    height: 265px;
+    top: 165px;
+    left: 20px;
+}
+
+.comedor{
+    width: 120px;
+    height: 120px;
+    top: 310px;
+    left: 245px;
+}
+
+.cuarto2{
+    width: 120px;
+    height: 120px;
+    top: 455px;
+    left: 20px;
+}
+
+.sala{
+    width: 200px;
+    height: 120px;
+    top: 455px;
+    left: 165px;
+}
+
+.garaje{
+    width: 200px;
+    height: 150px;
+    top: 600px;
+    left: 20px;
+}
+
+
+/* Estilo base para los botones de icono */
+.btn-icon {
+    background-color: #fff; /* Color de fondo predeterminado */
+    color: #333; /* Color de texto predeterminado */
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 24px;
+    padding: 0;
+    margin: 0 5px; /* Margen entre los botones */
+}
+
+/* Estilo para los botones de encendido */
+.on-button {
+    background-color: #ccbb00; /* Verde cuando está encendido */
+    color: #fff;
+}
+
+/* Estilo para los botones de apagado */
+.off-button {
+    background-color: #0e0d01; /* Rojo cuando está apagado */
+    color: #fff;
+}
+
+/* Estilo para los botones de abrir */
+.open-button {
+    background-color: #00ffea; /* Azul cuando está abierto */
+    color: #fff;
+}
+
+/* Estilo para los botones de cerrar */
+.close-button {
+    background-color: rgb(23, 38, 39); /* Gris cuando está cerrado */
+    color: #fff;
+}
+
+/* Cambiar el color de fondo al hacer clic */
+.btn-icon:active {
+    background-color: rgb(205, 0, 0);
+}
+
+/* Estilos para el botón de la cámara */
+.camera-button {
+    background-color: #0077FF; /* Color azul para el botón de la cámara */
+    color: #fff;
+}
+
+/* Cambiar el color de fondo al hacer clic en el botón de la cámara */
+.camera-button:active {
+    background-color: #cc0058; /* Cambiar a un tono más oscuro de azul */
+}
+
+
+

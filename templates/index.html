@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Smart Home Page</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+    <!-- Incluir Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+
+
+</head>
+<body>
+    <header>
+        <h1>Smart Home Page</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="/">Inicio</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Bienvenido a mi casa</h2>
+        <p>¡Esta es una página web personalizada para controlar los dispositivos de mi casa</p>
+        <div class="plano-casa">
+            <h2>Plano de la Casa</h2>
+            <div class="casa">
+                <div class= "cuarto1" data-room ="cuarto1">
+                    <h3>Cuarto 1</h3>
+                    <div class="botones-estilo1">
+                        <!-- Botón de encender y apagar la luz -->
+                        <button id="cuarto1-light" class="btn-icon toggle-button off-button">
+                            <i class="fas fa-lightbulb"></i>
+                        </button>
+                        <!-- Botón para abrir y cerrar la puerta -->
+                        <button id="cuarto1-door" class="btn-icon toggle-button closed-button">
+                            <i class="fas fa-door-closed"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="cuarto2">
+                    <h3>Cuarto 2</h3>
+                    <div class="botones-estilo1">
+                        <!-- Botón de encender y apagar la luz -->
+                        <button id="cuarto2-light" class="btn-icon toggle-button off-button">
+                            <i class="fas fa-lightbulb"></i>
+                        </button>
+                        <!-- Botón para abrir y cerrar la puerta -->
+                        <button id="cuarto2-door" class="btn-icon toggle-button closed-button">
+                            <i class="fas fa-door-closed"></i>
+                        </button>
+                    </div>
+                    
+                </div>
+                <div class="sala">
+                    <h3>Sala</h3>
+                    <div class="botones-estilo1">
+                        <!-- Botón de encender y apagar la luz -->
+                        <button id="sala-light" class="btn-icon toggle-button off-button">
+                            <i class="fas fa-lightbulb"></i>
+                        </button>
+                        <!-- Botón para abrir y cerrar la puerta -->
+                        <button id="sala-door" class="btn-icon toggle-button closed-button">
+                            <i class="fas fa-door-closed"></i>
+                        </button>
+                    </div>
+                    
+                </div>
+                <div class="comedor">
+                    <h3>Comedor</h3>
+                    <div class="botones-estilo1">
+                        <!-- Botón de encender y apagar la luz -->
+                        <button id="comedor-light" class="btn-icon toggle-button off-button">
+                            <i class="fas fa-lightbulb"></i>
+                        </button>
+                        
+                    </div>
+                    
+                </div>
+                <div class="cocina">
+                    <h3>Cocina</h3>
+                    <div class="botones-estilo1">
+                        <!-- Botón de encender y apagar la luz -->
+                        <button id="cocina-light" class="btn-icon toggle-button off-button">
+                            <i class="fas fa-lightbulb"></i>
+                        </button>
+                        
+                    </div>
+                    
+                </div>
+                <div class="servicio">
+                    <h3>Servicio</h3>
+                    <div class="botones-estilo1">
+                        <!-- Botón de encender y apagar la luz -->
+                        <button id="servicio-light" class="btn-icon toggle-button off-button">
+                            <i class="fas fa-lightbulb"></i>
+                        </button>
+                    
+                    </div>
+                    
+                </div>
+                <div class="garaje">
+                    <h3>Garaje</h3>
+                    <div class="botones-estilo1">
+                        <!-- Botón de encender y apagar la luz -->
+                        <button id="garaje-light" class="btn-icon toggle-button off-button">
+                            <i class="fas fa-lightbulb"></i>
+                        </button>
+                        
+                    </div>
+                    
+                </div>
+                <div class="jardin">
+                    <h3>Jardin</h3>
+                    <div class="botones-estilo1">
+                        <button id="jardin-camera" class="btn-icon camera-button">
+                            <i class="fas fa-camera"></i>
+                        </button>
+                        <!-- Botón para abrir y cerrar la puerta -->
+                        <button id="jardin-door" class="btn-icon toggle-button closed-button">
+                            <i class="fas fa-door-closed"></i>
+                        </button>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        
+    </main>
+    <footer>
+        <p>&copy; {{ year }} Smart Home Page</p>
+    </footer>
+</body>
+</html>
+
