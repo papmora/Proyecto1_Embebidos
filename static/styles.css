@@ -47,7 +47,7 @@ main {
 /* Estilos para la casa */
 .casa {
     width: 400px;
-    height: 800px;
+    height: 1200px;
     background-color: #e6e6e6;
     position: relative;
     margin: 0 auto;
@@ -61,7 +61,8 @@ main {
 .cocina,
 .servicio,
 .garaje,
-.jardin
+.jardin,
+.imagen
  {
     position: absolute;
     border: 1px solid #000;
@@ -127,6 +128,14 @@ main {
     left: 20px;
 }
 
+.imagen{
+    width: 360px;
+    height: 300px;
+    top: 800px;
+    left: 10px;
+
+}
+
 
 /* Estilo base para los botones de icono */
 .btn-icon {
@@ -182,6 +191,12 @@ main {
 .camera-button:active {
     background-color: #cc0058; /* Cambiar a un tono más oscuro de azul */
 }
+
+
+
+
+
+
 
 
 

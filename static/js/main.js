@@ -122,5 +122,12 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
+    // funcion para refrescar la pagina cada 10 segundos 
+    //setInterval(function() {
+    //    location.reload();
+    //}, 10000);
+
+
+
 
 });
