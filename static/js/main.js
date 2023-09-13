@@ -4,6 +4,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Función para alternar el estado de los botones de luz
     function toggleLight(button) {
+        fetch('/encender')
+            .then(response=> response.json())
+            .then (data){
         if (button.classList.contains("on-button")) {
             button.innerHTML = '<i class="far fa-lightbulb"></i>';
             button.classList.remove("on-button");
@@ -13,6 +16,7 @@ document.addEventListener("DOMContentLoaded", function() {
             button.classList.remove("off-button");
             button.classList.add("on-button");
         }
+            }
     }
 
 
